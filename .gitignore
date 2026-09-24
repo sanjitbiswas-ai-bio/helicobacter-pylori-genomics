@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Downloaded biological data
+data/raw/
+data/processed/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# NCBI Datasets archives
+ncbi_dataset.zip
+*_dataset.zip
+
+# Generated results
+results/*
+!results/.gitkeep
+figures/*
+!figures/.gitkeep
+
+# Logs
+*.log
+
+# Secrets
+.env
+*.key
